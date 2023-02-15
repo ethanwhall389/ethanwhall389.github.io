@@ -1,3 +1,4 @@
+
 html{
     font-size: 12px;
     font-family: 'Noto Sans', sans-serif;
@@ -23,6 +24,12 @@ img {
     border: 4px solid #234357;
 }
 
+img:hover {
+    border: 4px solid #448ca4;
+}
+
+
+
 p, li {
     font-size: 16px;
     line-height: 2;
@@ -36,16 +43,31 @@ font-size: 55px;
 text-align: center;
 font-family: 'Righteous', cursive;
 margin: 0;
-padding: 20px;
+padding-bottom: 20px;
 color: #ecab8a;
 text-shadow: 3px 3px 0px black;
 
 }
 
-#beginning:hover{
-    color:#234357;
-    text-shadow: none;
+h2 {
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Noto Sans', sans-serif;
+ margin: 0;
+ padding-top: 20px;
+ color: #234357; 
 }
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    color: #234357; 
+   }
+
 
 /* links */
 a{
@@ -54,4 +76,18 @@ a{
 }
 a:hover{
 color: #ecab8a;
+}
+
+button{
+    display: block;
+    margin: auto;
+    color:aliceblue;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #234357;
+    border: none;
+}
+
+button:hover{
+    background-color: #ecab8a;
 }
