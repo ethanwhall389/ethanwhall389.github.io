@@ -1,6 +1,6 @@
 
 const myImage = document.querySelector("img");
-
+ 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/ravi-pinisetti-1zikZJVXSfA-unsplash(small).jpg") {
